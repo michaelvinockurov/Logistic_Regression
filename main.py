@@ -13,8 +13,7 @@ if uploaded_file is not None:
     # Чтение данных
     data = pd.read_excel(uploaded_file)
 
-    st.write("Данные:")
-    st.write(data.head())
+
 
     # Разделение на особенности и целевую переменную
     X = data.iloc[:, :-1]  # Все столбцы, кроме последнего, как особенности
