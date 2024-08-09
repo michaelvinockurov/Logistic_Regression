@@ -6,7 +6,6 @@ import numpy as np
 
 # Заголовок приложения
 st.title("Логистическая регрессия")
-git init
 # Загрузка файла
 uploaded_file = st.file_uploader("Загрузите файл Excel", type=["xlsx"])
 
