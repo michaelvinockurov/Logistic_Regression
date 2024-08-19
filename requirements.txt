@@ -4,3 +4,4 @@ statsmodels
 numpy
 scikit-learn
 openpyxl
+scipy
